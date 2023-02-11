@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_pergutas/resultado.dart';
 import './questao.dart';
 import './resposta.dart';
 
@@ -53,7 +54,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
                       .toList(),
                 ],
               )
-            : null,
+            : Resultado(),
       ),
     );
   }
